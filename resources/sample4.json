@@ -1,0 +1,137 @@
+{
+  "courses": [
+    {
+      "courseName": "Data Mining",
+      "preferredTimeSlots": [
+        { "day": "Monday", "startTime": "09:00", "endTime": "10:35" },
+        { "day": "Tuesday", "startTime": "10:45", "endTime": "12:20" }
+      ]
+    },
+    {
+      "courseName": "Parallel Computing",
+      "preferredTimeSlots": [
+        { "day": "Wednesday", "startTime": "09:00", "endTime": "10:35" }
+      ]
+    },
+    {
+      "courseName": "Natural Language Processing",
+      "preferredTimeSlots": [
+        { "day": "Thursday", "startTime": "10:45", "endTime": "12:20" },
+        { "day": "Friday", "startTime": "09:00", "endTime": "10:35" }
+      ]
+    },
+    {
+      "courseName": "Software Testing",
+      "preferredTimeSlots": [
+        { "day": "Tuesday", "startTime": "09:00", "endTime": "10:35" }
+      ]
+    },
+    {
+      "courseName": "Embedded Systems",
+      "preferredTimeSlots": [
+        { "day": "Monday", "startTime": "10:45", "endTime": "12:20" }
+      ]
+    }
+  ],
+  "instructors": [
+    {
+      "name": "Dr. Morales",
+      "availability": [
+        { "day": "Monday", "startTime": "09:00", "endTime": "10:35" },
+        { "day": "Tuesday", "startTime": "10:45", "endTime": "12:20" }
+      ],
+      "preferredCourses": [
+        {
+          "courseName": "Data Mining",
+          "preferredTimeSlots": [
+            { "day": "Monday", "startTime": "09:00", "endTime": "10:35" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dr. Patel",
+      "availability": [
+        { "day": "Wednesday", "startTime": "09:00", "endTime": "10:35" },
+        { "day": "Tuesday", "startTime": "09:00", "endTime": "10:35" }
+      ],
+      "preferredCourses": [
+        {
+          "courseName": "Parallel Computing",
+          "preferredTimeSlots": [
+            { "day": "Wednesday", "startTime": "09:00", "endTime": "10:35" }
+          ]
+        },
+        {
+          "courseName": "Software Testing",
+          "preferredTimeSlots": [
+            { "day": "Tuesday", "startTime": "09:00", "endTime": "10:35" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dr. Lee",
+      "availability": [
+        { "day": "Thursday", "startTime": "10:45", "endTime": "12:20" }
+      ],
+      "preferredCourses": [
+        {
+          "courseName": "Natural Language Processing",
+          "preferredTimeSlots": [
+            { "day": "Thursday", "startTime": "10:45", "endTime": "12:20" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dr. Okafor",
+      "availability": [
+        { "day": "Friday", "startTime": "09:00", "endTime": "10:35" },
+        { "day": "Monday", "startTime": "10:45", "endTime": "12:20" }
+      ],
+      "preferredCourses": [
+        {
+          "courseName": "Natural Language Processing",
+          "preferredTimeSlots": [
+            { "day": "Friday", "startTime": "09:00", "endTime": "10:35" }
+          ]
+        },
+        {
+          "courseName": "Embedded Systems",
+          "preferredTimeSlots": [
+            { "day": "Monday", "startTime": "10:45", "endTime": "12:20" }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dr. Zhang",
+      "availability": [
+        { "day": "Tuesday", "startTime": "09:00", "endTime": "10:35" },
+        { "day": "Monday", "startTime": "09:00", "endTime": "10:35" }
+      ],
+      "preferredCourses": [
+        {
+          "courseName": "Software Testing",
+          "preferredTimeSlots": [
+            { "day": "Tuesday", "startTime": "09:00", "endTime": "10:35" }
+          ]
+        },
+        {
+          "courseName": "Data Mining",
+          "preferredTimeSlots": [
+            { "day": "Monday", "startTime": "09:00", "endTime": "10:35" }
+          ]
+        }
+      ]
+    }
+  ],
+  "timeSlots": [
+    { "day": "Monday", "startTime": "09:00", "endTime": "10:35" },
+    { "day": "Monday", "startTime": "10:45", "endTime": "12:20" },
+    { "day": "Tuesday", "startTime": "09:00", "endTime": "10:35" },
+    { "day": "Tuesday", "startTime": "10:45", "endTime": "12:20" },
+    { "day": "Wednesday", "startTime": "09:00", "endTime": "10:35" }
+  ]
+}

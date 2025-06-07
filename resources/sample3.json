@@ -1,0 +1,281 @@
+{
+  "courses": [
+    {
+      "courseName": "Mathematical statistics",
+      "preferredTimeSlots": [
+        {
+          "day": "Monday",
+          "endTime": "10:35",
+          "startTime": "09:00"
+        },
+        {
+          "day": "Tuesday",
+          "endTime": "10:35",
+          "startTime": "09:00"
+        }
+      ]
+    },
+    {
+      "courseName": "Calculus",
+      "preferredTimeSlots": [
+        {
+          "day": "Monday",
+          "endTime": "10:35",
+          "startTime": "09:00"
+        },
+        {
+          "day": "Tuesday",
+          "endTime": "10:35",
+          "startTime": "09:00"
+        }
+      ]
+    },
+    {
+      "courseName": "Linear algebra",
+      "preferredTimeSlots": [
+        {
+          "day": "Monday",
+          "endTime": "12:20",
+          "startTime": "10:45"
+        },
+        {
+          "day": "Tuesday",
+          "endTime": "12:20",
+          "startTime": "10:45"
+        }
+      ]
+    },
+    {
+      "courseName": "Discrete mathematics",
+      "preferredTimeSlots": [
+        {
+          "day": "Monday",
+          "endTime": "12:20",
+          "startTime": "10:45"
+        }
+      ]
+    },
+    {
+      "courseName": "Abstract algebra",
+      "preferredTimeSlots": [
+        {
+          "day": "Monday",
+          "endTime": "10:35",
+          "startTime": "09:00"
+        }
+      ]
+    },
+    {
+      "courseName": "Mathematical logic",
+      "preferredTimeSlots": [
+        {
+          "day": "Tuesday",
+          "endTime": "12:20",
+          "startTime": "10:45"
+        },
+        {
+          "day": "Monday",
+          "endTime": "12:20",
+          "startTime": "10:45"
+        }
+      ]
+    }
+  ],
+  "instructors": [
+    {
+      "availability": [
+        {
+          "day": "Monday",
+          "endTime": "10:35",
+          "startTime": "09:00"
+        },
+        {
+          "day": "Tuesday",
+          "endTime": "10:35",
+          "startTime": "09:00"
+        }
+      ],
+      "name": "Dr. Smith",
+      "preferredCourses": [
+        {
+          "courseName": "Calculus",
+          "preferredTimeSlots": [
+            {
+              "day": "Monday",
+              "endTime": "10:35",
+              "startTime": "09:00"
+            },
+            {
+              "day": "Tuesday",
+              "endTime": "10:35",
+              "startTime": "09:00"
+            }
+          ]
+        },
+        {
+          "courseName": "Linear algebra",
+          "preferredTimeSlots": [
+            {
+              "day": "Monday",
+              "endTime": "12:20",
+              "startTime": "10:45"
+            },
+            {
+              "day": "Tuesday",
+              "endTime": "12:20",
+              "startTime": "10:45"
+            }
+          ]
+        },
+        {
+          "courseName": "Abstract algebra",
+          "preferredTimeSlots": [
+            {
+              "day": "Monday",
+              "endTime": "10:35",
+              "startTime": "09:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "availability": [
+        {
+          "day": "Monday",
+          "endTime": "12:20",
+          "startTime": "10:45"
+        },
+        {
+          "day": "Tuesday",
+          "endTime": "12:20",
+          "startTime": "10:45"
+        }
+      ],
+      "name": "Dr. Johnson",
+      "preferredCourses": [
+        {
+          "courseName": "Discrete mathematics",
+          "preferredTimeSlots": [
+            {
+              "day": "Monday",
+              "endTime": "12:20",
+              "startTime": "10:45"
+            }
+          ]
+        },
+        {
+          "courseName": "Mathematical logic",
+          "preferredTimeSlots": [
+            {
+              "day": "Tuesday",
+              "endTime": "12:20",
+              "startTime": "10:45"
+            },
+            {
+              "day": "Monday",
+              "endTime": "12:20",
+              "startTime": "10:45"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "availability": [
+        {
+          "day": "Monday",
+          "endTime": "12:20",
+          "startTime": "10:45"
+        }
+      ],
+      "name": "Dr. Brown",
+      "preferredCourses": [
+        {
+          "courseName": "Calculus",
+          "preferredTimeSlots": [
+            {
+              "day": "Monday",
+              "endTime": "10:35",
+              "startTime": "09:00"
+            },
+            {
+              "day": "Tuesday",
+              "endTime": "10:35",
+              "startTime": "09:00"
+            }
+          ]
+        },
+        {
+          "courseName": "Mathematical statistics",
+          "preferredTimeSlots": [
+            {
+              "day": "Monday",
+              "endTime": "10:35",
+              "startTime": "09:00"
+            },
+            {
+              "day": "Tuesday",
+              "endTime": "10:35",
+              "startTime": "09:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "availability": [
+        {
+          "day": "Monday",
+          "endTime": "10:35",
+          "startTime": "09:00"
+        }
+      ],
+      "name": "Dr. Williams",
+      "preferredCourses": [
+        {
+          "courseName": "Discrete mathematics",
+          "preferredTimeSlots": [
+            {
+              "day": "Monday",
+              "endTime": "12:20",
+              "startTime": "10:45"
+            }
+          ]
+        },
+        {
+          "courseName": "Abstract algebra",
+          "preferredTimeSlots": [
+            {
+              "day": "Monday",
+              "endTime": "10:35",
+              "startTime": "09:00"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "timeSlots": [
+    {
+      "day": "Monday",
+      "endTime": "10:35",
+      "startTime": "09:00"
+    },
+    {
+      "day": "Monday",
+      "endTime": "12:20",
+      "startTime": "10:45"
+    },
+    {
+      "day": "Tuesday",
+      "endTime": "10:35",
+      "startTime": "09:00"
+    },
+    {
+      "day": "Tuesday",
+      "endTime": "12:20",
+      "startTime": "10:45"
+    }
+  ]
+}

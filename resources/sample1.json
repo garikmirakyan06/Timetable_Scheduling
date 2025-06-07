@@ -1,0 +1,251 @@
+{
+  "courses": [
+    {
+      "courseName": "Linear Algebra",
+      "preferredTimeSlots": [
+        {
+          "day": "Monday",
+          "endTime": "10:35",
+          "startTime": "09:00"
+        },
+        {
+          "day": "Tuesday",
+          "endTime": "10:35",
+          "startTime": "09:00"
+        }
+      ]
+    },
+    {
+      "courseName": "Calculus",
+      "preferredTimeSlots": [
+        {
+          "day": "Monday",
+          "endTime": "10:35",
+          "startTime": "09:00"
+        },
+        {
+          "day": "Tuesday",
+          "endTime": "10:35",
+          "startTime": "09:00"
+        }
+      ]
+    },
+    {
+      "courseName": "Complex Analysis",
+      "preferredTimeSlots": [
+        {
+          "day": "Monday",
+          "endTime": "12:20",
+          "startTime": "10:45"
+        },
+        {
+          "day": "Tuesday",
+          "endTime": "12:20",
+          "startTime": "10:45"
+        }
+      ]
+    },
+    {
+      "courseName": "Combinatorics",
+      "preferredTimeSlots": [
+        {
+          "day": "Monday",
+          "endTime": "14:25",
+          "startTime": "12:50"
+        },
+        {
+          "day": "Tuesday",
+          "endTime": "14:25",
+          "startTime": "12:50"
+        }
+      ]
+    }
+  ],
+  "instructors": [
+    {
+      "availability": [
+        {
+          "day": "Monday",
+          "endTime": "10:35",
+          "startTime": "09:00"
+        },
+        {
+          "day": "Tuesday",
+          "endTime": "10:35",
+          "startTime": "09:00"
+        }
+      ],
+      "name": "Dr. Smith",
+      "preferredCourses": [
+        {
+          "courseName": "Calculus",
+          "preferredTimeSlots": [
+            {
+              "day": "Monday",
+              "endTime": "10:35",
+              "startTime": "09:00"
+            },
+            {
+              "day": "Tuesday",
+              "endTime": "10:35",
+              "startTime": "09:00"
+            }
+          ]
+        },
+        {
+          "courseName": "Complex Analysis",
+          "preferredTimeSlots": [
+            {
+              "day": "Monday",
+              "endTime": "12:20",
+              "startTime": "10:45"
+            },
+            {
+              "day": "Tuesday",
+              "endTime": "12:20",
+              "startTime": "10:45"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "availability": [
+        {
+          "day": "Monday",
+          "endTime": "12:20",
+          "startTime": "10:45"
+        },
+        {
+          "day": "Tuesday",
+          "endTime": "12:20",
+          "startTime": "10:45"
+        }
+      ],
+      "name": "Dr. Johnson",
+      "preferredCourses": [
+        {
+          "courseName": "Combinatorics",
+          "preferredTimeSlots": [
+            {
+              "day": "Monday",
+              "endTime": "14:25",
+              "startTime": "12:50"
+            },
+            {
+              "day": "Tuesday",
+              "endTime": "14:25",
+              "startTime": "12:50"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "availability": [
+        {
+          "day": "Monday",
+          "endTime": "12:20",
+          "startTime": "10:45"
+        },
+        {
+          "day": "Tuesday",
+          "endTime": "14:25",
+          "startTime": "12:50"
+        }
+      ],
+      "name": "Dr. Brown",
+      "preferredCourses": [
+        {
+          "courseName": "Calculus",
+          "preferredTimeSlots": [
+            {
+              "day": "Monday",
+              "endTime": "10:35",
+              "startTime": "09:00"
+            },
+            {
+              "day": "Tuesday",
+              "endTime": "10:35",
+              "startTime": "09:00"
+            }
+          ]
+        },
+        {
+          "courseName": "Linear Algebra",
+          "preferredTimeSlots": [
+            {
+              "day": "Monday",
+              "endTime": "10:35",
+              "startTime": "09:00"
+            },
+            {
+              "day": "Tuesday",
+              "endTime": "10:35",
+              "startTime": "09:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "availability": [
+        {
+          "day": "Monday",
+          "endTime": "14:25",
+          "startTime": "12:50"
+        }
+      ],
+      "name": "Dr. Williams",
+      "preferredCourses": [
+        {
+          "courseName": "Combinatorics",
+          "preferredTimeSlots": [
+            {
+              "day": "Monday",
+              "endTime": "14:25",
+              "startTime": "12:50"
+            },
+            {
+              "day": "Tuesday",
+              "endTime": "14:25",
+              "startTime": "12:50"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "timeSlots": [
+    {
+      "day": "Monday",
+      "endTime": "10:35",
+      "startTime": "09:00"
+    },
+    {
+      "day": "Monday",
+      "endTime": "12:20",
+      "startTime": "10:45"
+    },
+    {
+      "day": "Monday",
+      "endTime": "14:25",
+      "startTime": "12:50"
+    },
+    {
+      "day": "Tuesday",
+      "endTime": "10:35",
+      "startTime": "09:00"
+    },
+    {
+      "day": "Tuesday",
+      "endTime": "12:20",
+      "startTime": "10:45"
+    },
+    {
+      "day": "Tuesday",
+      "endTime": "14:25",
+      "startTime": "12:50"
+    }
+  ]
+}
