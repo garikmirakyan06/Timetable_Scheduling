@@ -11,12 +11,12 @@ The system attempts to generate a valid schedule by assigning courses to time sl
 Full problem statement and project requirements can be found [here](https://docs.google.com/document/d/1iGzcBMqbpLfBhPh7xrKGplsiqojhlKjDzB4THlBh2ho/edit?tab=t.0). Due to the exhaustive nature of the brute-force algorithm, this solution is only feasible for small problem instances. For larger cases, more optimized or heuristic-based approaches are recommended (e.g., backtracking, constraint programming, or metaheuristics).
 
 
-## Time Complexity
+## Time Complexity of the brute-force solution
 
 The time complexity of the brute-force solution is:
 
 $$
-\mathbf{\large O\left(\min(T, C)! \times \binom{\max(T, C)}{\min(T, C)} \times I^{\min(T, C)}\right)}
+\mathbf{\large O\left(\binom{\max(T, C)}{\min(T, C)}\times\min(T, C)! \times I^{\min(T, C)}\right)}
 $$
 
 
