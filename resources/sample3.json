@@ -259,7 +259,7 @@
   "timeSlots": [
     {
       "day": "Monday",
-      "endTime": "10:35",
+      "endTime": "10:35"  ,
       "startTime": "09:00"
     },
     {

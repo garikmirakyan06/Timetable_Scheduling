@@ -33,7 +33,17 @@ public:
     // from Json file creates University
     void loadState(const std::string& filePath);
 
-
     void displayInfo() const;
+
+
+    // getters
+    const std::vector<Course>& getCourses() const { return courses; }
+    std::vector<Course>& getCourses() { return courses; }
+
+    const std::vector<Instructor>& getInstructors() const { return instructors; }
+    std::vector<Instructor>& getInstructors() { return instructors; }
+
+    const std::vector<TimeSlot>& getTimeSlots() const { return timeSlots; }
+    std::vector<TimeSlot>& getTimeSlots() { return timeSlots; }
 };
 

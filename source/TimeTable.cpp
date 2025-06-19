@@ -3,28 +3,14 @@
 
 void TimeTable::printAssignments() const {
     for (const auto& assignment : assignments) {
-        std::cout << "| " << std::setw(27) << std::left << assignment.timeSlotPtr->getInfo()
-                << "| " << std::setw(34) << std::left << assignment.coursePtr->getCourseName()
-                << "| " << std::setw(34) << std::left << assignment.instructorPtr->getName()
-                << "| " << std::setw(10) << std::left << assignment.penalty
-                << "|\n";
+        assignment.print();
     }
 }
 
-int TimeTable::countPenalty() {
+int TimeTable::countPenalty() const {
     int penalty{0};
-    for(auto& assignment : assignments) {
-        int assignmentPenalty{0};
-        const auto& prefTimeSlots = assignment.coursePtr->getPreferredTimeSlots();
-        if (std::find(prefTimeSlots.begin(), prefTimeSlots.end(), *assignment.timeSlotPtr) == prefTimeSlots.end()) {
-            assignmentPenalty += 1;
-        }
-        const auto& prefCourses = assignment.instructorPtr->getPreferredCourses();
-        if(std::find(prefCourses.begin(), prefCourses.end(), *assignment.coursePtr) == prefCourses.end()) {
-            assignmentPenalty += 2;
-        }
-        assignment.penalty = assignmentPenalty;
-        penalty += assignmentPenalty;
+    for(const auto& assignment : assignments) {
+        penalty += assignment.penalty;
     }
     return penalty;
 }

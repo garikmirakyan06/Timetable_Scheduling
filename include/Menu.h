@@ -7,7 +7,6 @@
 #include <vector>
 
 #include <nlohmann/json.hpp>
-#include "BruteForceUniversity.h"
 #include "University.h"
 #include "Timer.h"
 
@@ -34,17 +33,17 @@ public:
 
     static void waitForEnter();
 
-    SchedulingResults scheduleBruteForce(const std::string& fileName) const;
-
-    void outputSchedulingResults(const SchedulingResults& results);
-
     void display() const;
 
     void constructFileNames();
 
     const std::string& getFileNameByIndex(int index) const;
 
-    int interact() const;
+    int chooseOption() const;
+
+    int chooseScheduler() const;
+
+    const std::string& getDirPath() const { return dirPath; }
 };
 
 

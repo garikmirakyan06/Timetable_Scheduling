@@ -1,5 +1,6 @@
 #include "Menu.h"
 
+#include <iostream>
 
 
 std::vector<std::string> Menu::getFilesInfo() const {
@@ -39,31 +40,8 @@ void Menu::waitForEnter() {
     std::cin.get();
 }
 
-SchedulingResults Menu::scheduleBruteForce(const std::string& fileName) const {
-    University uni;
-    uni.loadState(dirPath + fileName);
-    Timer timer;
-    BruteForceUniversity universitySolver(uni);
-    SchedulingResults results = universitySolver.schedule();
-    double duration = timer.getDuration();
-    results.timeTaken = duration;
-    return results;
-}
-
-void Menu::outputSchedulingResults(const SchedulingResults& results) {
-    Menu::clear();
-    std::cout << "Time taken: " << "\033[4m" << results.timeTaken << "\033[0m" << " seconds" << std::endl;
-    std::cout << "TimeTables combination considered: " << "\033[4m" << results.timeTablesCount << "\033[0m" << std::endl;
-    std::cout << "Minimum penalty is: " << "\033[4m" << results.minPenalty << "\033[0m" << std::endl;
-    std::cout << "Count of timeTables with minimum penalty: " << "\033[4m" << results.timeTables.size() << "\033[0m" << std::endl;
-    for (const auto& timeTable : results.timeTables) {
-        std::cout << std::endl;
-        timeTable.print();
-    }
-    waitForEnter();
-}
-
 void Menu::display() const {
+    Menu::clear();
     std::vector<std::string> filesInfo = getFilesInfo(); // can throw
     std::cout << "Choose the file you want to schedule (located in the 'resources' directory)." << "\n\n";
     for (int i = 0; i < fileNames.size(); i++) {
@@ -87,12 +65,12 @@ const std::string & Menu::getFileNameByIndex(int index) const {
     return fileNames[index-1];
 }
 
-int Menu::interact() const {
+int Menu::chooseOption() const {
     if (fileNames.size() == 0) {
         throw std::runtime_error("Error: There are no JSON files in the resources directory");
     }
 
-    std::cout << "Choose number in range [1, " << fileNames.size() << "]: ";
+    std::cout << "Choose number in range [1, " << fileNames.size() << "] (or 0 if you want to exit): ";
     int choice;
     while (true) {
         std::cin >> choice;
@@ -102,11 +80,29 @@ int Menu::interact() const {
             std::cout << "Invalid input. Try again: ";
             continue;
         }
-        if (choice < 1 || choice > fileNames.size()) {
+        if (choice < 0 || choice > fileNames.size()) {
             std::cout << "Invalid input. Try again: ";
             continue;
         }
         break;
     }
     return choice;
+}
+
+int Menu::chooseScheduler() const {
+    Menu::clear();
+    std::cout << "Choose Scheduler.\n\n";
+    std::cout << "1) Brute Force Scheduler.\n";
+    std::cout << "2) Dummy Scheduler.\n\n";
+    std::cout << "Input option: ";
+
+    int choice{-1};
+    std::cin >> choice;
+    if (choice == 1) {
+        return 1;
+    } else if (choice == 2) {
+        return 2;
+    }
+    std::cerr << "Invalid input.\n";
+    return -1;
 }

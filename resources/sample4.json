@@ -1,137 +1,927 @@
 {
   "courses": [
     {
-      "courseName": "Data Mining",
+      "courseName": "Course 1",
       "preferredTimeSlots": [
-        { "day": "Monday", "startTime": "09:00", "endTime": "10:35" },
-        { "day": "Tuesday", "startTime": "10:45", "endTime": "12:20" }
+        {
+          "day": "Monday",
+          "startTime": "08:00",
+          "endTime": "09:30"
+        }
       ]
     },
     {
-      "courseName": "Parallel Computing",
+      "courseName": "Course 2",
       "preferredTimeSlots": [
-        { "day": "Wednesday", "startTime": "09:00", "endTime": "10:35" }
+        {
+          "day": "Tuesday",
+          "startTime": "11:30",
+          "endTime": "13:00"
+        },
+        {
+          "day": "Monday",
+          "startTime": "15:00",
+          "endTime": "16:30"
+        }
       ]
     },
     {
-      "courseName": "Natural Language Processing",
+      "courseName": "Course 3",
       "preferredTimeSlots": [
-        { "day": "Thursday", "startTime": "10:45", "endTime": "12:20" },
-        { "day": "Friday", "startTime": "09:00", "endTime": "10:35" }
+        {
+          "day": "Friday",
+          "startTime": "09:45",
+          "endTime": "11:15"
+        }
       ]
     },
     {
-      "courseName": "Software Testing",
+      "courseName": "Course 4",
       "preferredTimeSlots": [
-        { "day": "Tuesday", "startTime": "09:00", "endTime": "10:35" }
+        {
+          "day": "Thursday",
+          "startTime": "13:15",
+          "endTime": "14:45"
+        }
       ]
     },
     {
-      "courseName": "Embedded Systems",
+      "courseName": "Course 5",
       "preferredTimeSlots": [
-        { "day": "Monday", "startTime": "10:45", "endTime": "12:20" }
+        {
+          "day": "Monday",
+          "startTime": "09:45",
+          "endTime": "11:15"
+        },
+        {
+          "day": "Monday",
+          "startTime": "08:00",
+          "endTime": "09:30"
+        }
+      ]
+    },
+    {
+      "courseName": "Course 6",
+      "preferredTimeSlots": [
+        {
+          "day": "Tuesday",
+          "startTime": "09:45",
+          "endTime": "11:15"
+        }
+      ]
+    },
+    {
+      "courseName": "Course 7",
+      "preferredTimeSlots": [
+        {
+          "day": "Thursday",
+          "startTime": "09:45",
+          "endTime": "11:15"
+        }
+      ]
+    },
+    {
+      "courseName": "Course 8",
+      "preferredTimeSlots": [
+        {
+          "day": "Thursday",
+          "startTime": "11:30",
+          "endTime": "13:00"
+        }
+      ]
+    },
+    {
+      "courseName": "Course 9",
+      "preferredTimeSlots": [
+        {
+          "day": "Friday",
+          "startTime": "08:00",
+          "endTime": "09:30"
+        }
+      ]
+    },
+    {
+      "courseName": "Course 10",
+      "preferredTimeSlots": [
+        {
+          "day": "Tuesday",
+          "startTime": "11:30",
+          "endTime": "13:00"
+        },
+        {
+          "day": "Wednesday",
+          "startTime": "15:00",
+          "endTime": "16:30"
+        }
+      ]
+    },
+    {
+      "courseName": "Course 11",
+      "preferredTimeSlots": [
+        {
+          "day": "Monday",
+          "startTime": "08:00",
+          "endTime": "09:30"
+        },
+        {
+          "day": "Tuesday",
+          "startTime": "08:00",
+          "endTime": "09:30"
+        }
+      ]
+    },
+    {
+      "courseName": "Course 12",
+      "preferredTimeSlots": [
+        {
+          "day": "Wednesday",
+          "startTime": "08:00",
+          "endTime": "09:30"
+        },
+        {
+          "day": "Tuesday",
+          "startTime": "13:15",
+          "endTime": "14:45"
+        }
+      ]
+    },
+    {
+      "courseName": "Course 13",
+      "preferredTimeSlots": [
+        {
+          "day": "Tuesday",
+          "startTime": "09:45",
+          "endTime": "11:15"
+        }
+      ]
+    },
+    {
+      "courseName": "Course 14",
+      "preferredTimeSlots": [
+        {
+          "day": "Monday",
+          "startTime": "13:15",
+          "endTime": "14:45"
+        },
+        {
+          "day": "Monday",
+          "startTime": "11:30",
+          "endTime": "13:00"
+        }
+      ]
+    },
+    {
+      "courseName": "Course 15",
+      "preferredTimeSlots": [
+        {
+          "day": "Monday",
+          "startTime": "13:15",
+          "endTime": "14:45"
+        },
+        {
+          "day": "Wednesday",
+          "startTime": "09:45",
+          "endTime": "11:15"
+        }
+      ]
+    },
+    {
+      "courseName": "Course 16",
+      "preferredTimeSlots": [
+        {
+          "day": "Thursday",
+          "startTime": "15:00",
+          "endTime": "16:30"
+        },
+        {
+          "day": "Tuesday",
+          "startTime": "13:15",
+          "endTime": "14:45"
+        }
+      ]
+    },
+    {
+      "courseName": "Course 17",
+      "preferredTimeSlots": [
+        {
+          "day": "Wednesday",
+          "startTime": "15:00",
+          "endTime": "16:30"
+        }
+      ]
+    },
+    {
+      "courseName": "Course 18",
+      "preferredTimeSlots": [
+        {
+          "day": "Wednesday",
+          "startTime": "11:30",
+          "endTime": "13:00"
+        }
+      ]
+    },
+    {
+      "courseName": "Course 19",
+      "preferredTimeSlots": [
+        {
+          "day": "Thursday",
+          "startTime": "11:30",
+          "endTime": "13:00"
+        }
+      ]
+    },
+    {
+      "courseName": "Course 20",
+      "preferredTimeSlots": [
+        {
+          "day": "Friday",
+          "startTime": "08:00",
+          "endTime": "09:30"
+        },
+        {
+          "day": "Thursday",
+          "startTime": "15:00",
+          "endTime": "16:30"
+        }
+      ]
+    },
+    {
+      "courseName": "Course 21",
+      "preferredTimeSlots": [
+        {
+          "day": "Thursday",
+          "startTime": "13:15",
+          "endTime": "14:45"
+        },
+        {
+          "day": "Tuesday",
+          "startTime": "09:45",
+          "endTime": "11:15"
+        }
+      ]
+    },
+    {
+      "courseName": "Course 22",
+      "preferredTimeSlots": [
+        {
+          "day": "Monday",
+          "startTime": "09:45",
+          "endTime": "11:15"
+        }
       ]
     }
   ],
   "instructors": [
     {
-      "name": "Dr. Morales",
+      "name": "Instructor 1",
       "availability": [
-        { "day": "Monday", "startTime": "09:00", "endTime": "10:35" },
-        { "day": "Tuesday", "startTime": "10:45", "endTime": "12:20" }
+        {
+          "day": "Wednesday",
+          "startTime": "15:00",
+          "endTime": "16:30"
+        }
       ],
       "preferredCourses": [
         {
-          "courseName": "Data Mining",
+          "courseName": "Course 14",
           "preferredTimeSlots": [
-            { "day": "Monday", "startTime": "09:00", "endTime": "10:35" }
+            {
+              "day": "Wednesday",
+              "startTime": "15:00",
+              "endTime": "16:30"
+            }
           ]
         }
       ]
     },
     {
-      "name": "Dr. Patel",
+      "name": "Instructor 2",
       "availability": [
-        { "day": "Wednesday", "startTime": "09:00", "endTime": "10:35" },
-        { "day": "Tuesday", "startTime": "09:00", "endTime": "10:35" }
-      ],
-      "preferredCourses": [
         {
-          "courseName": "Parallel Computing",
-          "preferredTimeSlots": [
-            { "day": "Wednesday", "startTime": "09:00", "endTime": "10:35" }
-          ]
+          "day": "Friday",
+          "startTime": "08:00",
+          "endTime": "09:30"
         },
         {
-          "courseName": "Software Testing",
+          "day": "Thursday",
+          "startTime": "11:30",
+          "endTime": "13:00"
+        }
+      ],
+      "preferredCourses": [
+        {
+          "courseName": "Course 15",
           "preferredTimeSlots": [
-            { "day": "Tuesday", "startTime": "09:00", "endTime": "10:35" }
+            {
+              "day": "Friday",
+              "startTime": "08:00",
+              "endTime": "09:30"
+            }
           ]
         }
       ]
     },
     {
-      "name": "Dr. Lee",
+      "name": "Instructor 3",
       "availability": [
-        { "day": "Thursday", "startTime": "10:45", "endTime": "12:20" }
-      ],
-      "preferredCourses": [
         {
-          "courseName": "Natural Language Processing",
-          "preferredTimeSlots": [
-            { "day": "Thursday", "startTime": "10:45", "endTime": "12:20" }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "Dr. Okafor",
-      "availability": [
-        { "day": "Friday", "startTime": "09:00", "endTime": "10:35" },
-        { "day": "Monday", "startTime": "10:45", "endTime": "12:20" }
-      ],
-      "preferredCourses": [
-        {
-          "courseName": "Natural Language Processing",
-          "preferredTimeSlots": [
-            { "day": "Friday", "startTime": "09:00", "endTime": "10:35" }
-          ]
+          "day": "Monday",
+          "startTime": "09:45",
+          "endTime": "11:15"
         },
         {
-          "courseName": "Embedded Systems",
+          "day": "Tuesday",
+          "startTime": "11:30",
+          "endTime": "13:00"
+        }
+      ],
+      "preferredCourses": [
+        {
+          "courseName": "Course 7",
           "preferredTimeSlots": [
-            { "day": "Monday", "startTime": "10:45", "endTime": "12:20" }
+            {
+              "day": "Monday",
+              "startTime": "09:45",
+              "endTime": "11:15"
+            }
           ]
         }
       ]
     },
     {
-      "name": "Dr. Zhang",
+      "name": "Instructor 4",
       "availability": [
-        { "day": "Tuesday", "startTime": "09:00", "endTime": "10:35" },
-        { "day": "Monday", "startTime": "09:00", "endTime": "10:35" }
+        {
+          "day": "Wednesday",
+          "startTime": "11:30",
+          "endTime": "13:00"
+        },
+        {
+          "day": "Tuesday",
+          "startTime": "13:15",
+          "endTime": "14:45"
+        }
       ],
       "preferredCourses": [
         {
-          "courseName": "Software Testing",
+          "courseName": "Course 2",
           "preferredTimeSlots": [
-            { "day": "Tuesday", "startTime": "09:00", "endTime": "10:35" }
+            {
+              "day": "Wednesday",
+              "startTime": "11:30",
+              "endTime": "13:00"
+            }
           ]
+        }
+      ]
+    },
+    {
+      "name": "Instructor 5",
+      "availability": [
+        {
+          "day": "Thursday",
+          "startTime": "13:15",
+          "endTime": "14:45"
+        }
+      ],
+      "preferredCourses": [
+        {
+          "courseName": "Course 1",
+          "preferredTimeSlots": [
+            {
+              "day": "Thursday",
+              "startTime": "13:15",
+              "endTime": "14:45"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Instructor 6",
+      "availability": [
+        {
+          "day": "Friday",
+          "startTime": "08:00",
+          "endTime": "09:30"
+        }
+      ],
+      "preferredCourses": [
+        {
+          "courseName": "Course 16",
+          "preferredTimeSlots": [
+            {
+              "day": "Friday",
+              "startTime": "08:00",
+              "endTime": "09:30"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Instructor 7",
+      "availability": [
+        {
+          "day": "Friday",
+          "startTime": "08:00",
+          "endTime": "09:30"
         },
         {
-          "courseName": "Data Mining",
+          "day": "Wednesday",
+          "startTime": "15:00",
+          "endTime": "16:30"
+        }
+      ],
+      "preferredCourses": [
+        {
+          "courseName": "Course 9",
           "preferredTimeSlots": [
-            { "day": "Monday", "startTime": "09:00", "endTime": "10:35" }
+            {
+              "day": "Friday",
+              "startTime": "08:00",
+              "endTime": "09:30"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Instructor 8",
+      "availability": [
+        {
+          "day": "Monday",
+          "startTime": "15:00",
+          "endTime": "16:30"
+        },
+        {
+          "day": "Tuesday",
+          "startTime": "11:30",
+          "endTime": "13:00"
+        }
+      ],
+      "preferredCourses": [
+        {
+          "courseName": "Course 17",
+          "preferredTimeSlots": [
+            {
+              "day": "Tuesday",
+              "startTime": "11:30",
+              "endTime": "13:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Instructor 9",
+      "availability": [
+        {
+          "day": "Thursday",
+          "startTime": "13:15",
+          "endTime": "14:45"
+        },
+        {
+          "day": "Wednesday",
+          "startTime": "11:30",
+          "endTime": "13:00"
+        }
+      ],
+      "preferredCourses": [
+        {
+          "courseName": "Course 20",
+          "preferredTimeSlots": [
+            {
+              "day": "Wednesday",
+              "startTime": "11:30",
+              "endTime": "13:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Instructor 10",
+      "availability": [
+        {
+          "day": "Monday",
+          "startTime": "15:00",
+          "endTime": "16:30"
+        }
+      ],
+      "preferredCourses": [
+        {
+          "courseName": "Course 12",
+          "preferredTimeSlots": [
+            {
+              "day": "Monday",
+              "startTime": "15:00",
+              "endTime": "16:30"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Instructor 11",
+      "availability": [
+        {
+          "day": "Monday",
+          "startTime": "09:45",
+          "endTime": "11:15"
+        }
+      ],
+      "preferredCourses": [
+        {
+          "courseName": "Course 19",
+          "preferredTimeSlots": [
+            {
+              "day": "Monday",
+              "startTime": "09:45",
+              "endTime": "11:15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Instructor 12",
+      "availability": [
+        {
+          "day": "Friday",
+          "startTime": "08:00",
+          "endTime": "09:30"
+        }
+      ],
+      "preferredCourses": [
+        {
+          "courseName": "Course 6",
+          "preferredTimeSlots": [
+            {
+              "day": "Friday",
+              "startTime": "08:00",
+              "endTime": "09:30"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Instructor 13",
+      "availability": [
+        {
+          "day": "Thursday",
+          "startTime": "15:00",
+          "endTime": "16:30"
+        },
+        {
+          "day": "Monday",
+          "startTime": "11:30",
+          "endTime": "13:00"
+        }
+      ],
+      "preferredCourses": [
+        {
+          "courseName": "Course 11",
+          "preferredTimeSlots": [
+            {
+              "day": "Monday",
+              "startTime": "11:30",
+              "endTime": "13:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Instructor 14",
+      "availability": [
+        {
+          "day": "Thursday",
+          "startTime": "15:00",
+          "endTime": "16:30"
+        },
+        {
+          "day": "Wednesday",
+          "startTime": "15:00",
+          "endTime": "16:30"
+        }
+      ],
+      "preferredCourses": [
+        {
+          "courseName": "Course 18",
+          "preferredTimeSlots": [
+            {
+              "day": "Wednesday",
+              "startTime": "15:00",
+              "endTime": "16:30"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Instructor 15",
+      "availability": [
+        {
+          "day": "Friday",
+          "startTime": "09:45",
+          "endTime": "11:15"
+        }
+      ],
+      "preferredCourses": [
+        {
+          "courseName": "Course 5",
+          "preferredTimeSlots": [
+            {
+              "day": "Friday",
+              "startTime": "09:45",
+              "endTime": "11:15"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Instructor 16",
+      "availability": [
+        {
+          "day": "Friday",
+          "startTime": "08:00",
+          "endTime": "09:30"
+        },
+        {
+          "day": "Wednesday",
+          "startTime": "08:00",
+          "endTime": "09:30"
+        }
+      ],
+      "preferredCourses": [
+        {
+          "courseName": "Course 13",
+          "preferredTimeSlots": [
+            {
+              "day": "Friday",
+              "startTime": "08:00",
+              "endTime": "09:30"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Instructor 17",
+      "availability": [
+        {
+          "day": "Wednesday",
+          "startTime": "13:15",
+          "endTime": "14:45"
+        },
+        {
+          "day": "Tuesday",
+          "startTime": "08:00",
+          "endTime": "09:30"
+        }
+      ],
+      "preferredCourses": [
+        {
+          "courseName": "Course 4",
+          "preferredTimeSlots": [
+            {
+              "day": "Tuesday",
+              "startTime": "08:00",
+              "endTime": "09:30"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Instructor 18",
+      "availability": [
+        {
+          "day": "Tuesday",
+          "startTime": "13:15",
+          "endTime": "14:45"
+        }
+      ],
+      "preferredCourses": [
+        {
+          "courseName": "Course 21",
+          "preferredTimeSlots": [
+            {
+              "day": "Tuesday",
+              "startTime": "13:15",
+              "endTime": "14:45"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Instructor 19",
+      "availability": [
+        {
+          "day": "Friday",
+          "startTime": "08:00",
+          "endTime": "09:30"
+        }
+      ],
+      "preferredCourses": [
+        {
+          "courseName": "Course 3",
+          "preferredTimeSlots": [
+            {
+              "day": "Friday",
+              "startTime": "08:00",
+              "endTime": "09:30"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Instructor 20",
+      "availability": [
+        {
+          "day": "Monday",
+          "startTime": "15:00",
+          "endTime": "16:30"
+        }
+      ],
+      "preferredCourses": [
+        {
+          "courseName": "Course 10",
+          "preferredTimeSlots": [
+            {
+              "day": "Monday",
+              "startTime": "15:00",
+              "endTime": "16:30"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Instructor 21",
+      "availability": [
+        {
+          "day": "Thursday",
+          "startTime": "11:30",
+          "endTime": "13:00"
+        }
+      ],
+      "preferredCourses": [
+        {
+          "courseName": "Course 8",
+          "preferredTimeSlots": [
+            {
+              "day": "Thursday",
+              "startTime": "11:30",
+              "endTime": "13:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Instructor 22",
+      "availability": [
+        {
+          "day": "Thursday",
+          "startTime": "08:00",
+          "endTime": "09:30"
+        },
+        {
+          "day": "Monday",
+          "startTime": "08:00",
+          "endTime": "09:30"
+        }
+      ],
+      "preferredCourses": [
+        {
+          "courseName": "Course 22",
+          "preferredTimeSlots": [
+            {
+              "day": "Thursday",
+              "startTime": "08:00",
+              "endTime": "09:30"
+            }
           ]
         }
       ]
     }
   ],
   "timeSlots": [
-    { "day": "Monday", "startTime": "09:00", "endTime": "10:35" },
-    { "day": "Monday", "startTime": "10:45", "endTime": "12:20" },
-    { "day": "Tuesday", "startTime": "09:00", "endTime": "10:35" },
-    { "day": "Tuesday", "startTime": "10:45", "endTime": "12:20" },
-    { "day": "Wednesday", "startTime": "09:00", "endTime": "10:35" }
+    {
+      "day": "Monday",
+      "startTime": "08:00",
+      "endTime": "09:30"
+    },
+    {
+      "day": "Monday",
+      "startTime": "09:45",
+      "endTime": "11:15"
+    },
+    {
+      "day": "Monday",
+      "startTime": "11:30",
+      "endTime": "13:00"
+    },
+    {
+      "day": "Monday",
+      "startTime": "13:15",
+      "endTime": "14:45"
+    },
+    {
+      "day": "Monday",
+      "startTime": "15:00",
+      "endTime": "16:30"
+    },
+    {
+      "day": "Tuesday",
+      "startTime": "08:00",
+      "endTime": "09:30"
+    },
+    {
+      "day": "Tuesday",
+      "startTime": "09:45",
+      "endTime": "11:15"
+    },
+    {
+      "day": "Tuesday",
+      "startTime": "11:30",
+      "endTime": "13:00"
+    },
+    {
+      "day": "Tuesday",
+      "startTime": "13:15",
+      "endTime": "14:45"
+    },
+    {
+      "day": "Tuesday",
+      "startTime": "15:00",
+      "endTime": "16:30"
+    },
+    {
+      "day": "Wednesday",
+      "startTime": "08:00",
+      "endTime": "09:30"
+    },
+    {
+      "day": "Wednesday",
+      "startTime": "09:45",
+      "endTime": "11:15"
+    },
+    {
+      "day": "Wednesday",
+      "startTime": "11:30",
+      "endTime": "13:00"
+    },
+    {
+      "day": "Wednesday",
+      "startTime": "13:15",
+      "endTime": "14:45"
+    },
+    {
+      "day": "Wednesday",
+      "startTime": "15:00",
+      "endTime": "16:30"
+    },
+    {
+      "day": "Thursday",
+      "startTime": "08:00",
+      "endTime": "09:30"
+    },
+    {
+      "day": "Thursday",
+      "startTime": "09:45",
+      "endTime": "11:15"
+    },
+    {
+      "day": "Thursday",
+      "startTime": "11:30",
+      "endTime": "13:00"
+    },
+    {
+      "day": "Thursday",
+      "startTime": "13:15",
+      "endTime": "14:45"
+    },
+    {
+      "day": "Thursday",
+      "startTime": "15:00",
+      "endTime": "16:30"
+    },
+    {
+      "day": "Friday",
+      "startTime": "08:00",
+      "endTime": "09:30"
+    },
+    {
+      "day": "Friday",
+      "startTime": "09:45",
+      "endTime": "11:15"
+    }
   ]
 }
