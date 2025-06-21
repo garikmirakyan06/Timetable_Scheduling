@@ -67,3 +67,16 @@ This algorithm primarily focuses on the first soft constraint:
 This algorithm is heuristic, so its time complexity is polynomial, making it suitable for large-scale data.
 The approximate time complexity is O(T × C × I).
 
+
+## Installation and Setup
+
+This project uses **CMake** for building and supports both local and containerized development.
+
+### Building Locally:
+
+To build the project locally you can just run script `build.sh` in directory `scripts` 
+   
+### Docker:
+there is also `Dockerfile` wich will install all necessary dependencies in new environment 
+If you prefer using Docker you can run `./scripts/docker_run.sh`. You can also run `docker_install.sh` if you dont have it.
+
