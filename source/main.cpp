@@ -5,25 +5,6 @@
 
 
 int main() {
-    // University university;
-    // university.loadState("../resources/sample4.json");
-    // // std::cout << university.getTimeSlots().size();
-    // BruteForceScheduler s1(university);
-    // DummyScheduler s2(university);
-    // // std::cout << s.courses.size();
-    // // std::cout << s.timeSlots.size();
-    // std::vector<TimeTable> res1 = s1.schedule();
-    // for (auto& timeTable : res1) {
-    //     std::cout << timeTable.countPenalty() << ' ' ;
-    // }
-    // std::cout << "\n\n";
-    // std::vector<TimeTable> res2 = s2.schedule();
-    // for (auto& timeTable : res2) {
-    //     std::cout << timeTable.countPenalty() << ' ' ;
-    // }
-
-
-
     while (true) {
         try {
             Menu menu;
