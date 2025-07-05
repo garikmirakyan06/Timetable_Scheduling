@@ -1,0 +1,70 @@
+{
+  "courses": [
+    {
+      "courseName": "Artificial Intelligence",
+      "preferredTimeSlots": [
+        {
+          "day": "Monday",
+          "startTime": "10:00",
+          "endTime": "11:30"
+        },
+        {
+          "day": "Wednesday",
+          "startTime": "10:00",
+          "endTime": "11:30"
+        }
+      ]
+    }
+  ],
+  "instructors": [
+    {
+      "name": "Dr. Ada Lovelace",
+      "availability": [
+        {
+          "day": "Monday",
+          "startTime": "10:00",
+          "endTime": "11:30"
+        },
+        {
+          "day": "Wednesday",
+          "startTime": "10:00",
+          "endTime": "11:30"
+        },
+        {
+          "day": "Friday",
+          "startTime": "10:00",
+          "endTime": "11:30"
+        }
+      ],
+      "preferredCourses": [
+        {
+          "courseName": "Artificial Intelligence",
+          "preferredTimeSlots": [
+            {
+              "day": "Monday",
+              "startTime": "10:00",
+              "endTime": "11:30"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "timeSlots": [
+    {
+      "day": "Monday",
+      "startTime": "10:00",
+      "endTime": "11:30"
+    },
+    {
+      "day": "Wednesday",
+      "startTime": "10:00",
+      "endTime": "11:30"
+    },
+    {
+      "day": "Friday",
+      "startTime": "10:00",
+      "endTime": "11:30"
+    }
+  ]
+}

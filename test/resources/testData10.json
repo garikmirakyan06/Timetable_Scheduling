@@ -1,0 +1,119 @@
+{
+  "courses": [
+    {
+      "courseName": "Data Structures",
+      "preferredTimeSlots": [
+        {
+          "day": "Wednesday",
+          "startTime": "10:00",
+          "endTime": "11:30"
+        }
+      ]
+    },
+    {
+      "courseName": "Algorithms",
+      "preferredTimeSlots": [
+        {
+          "day": "Thursday",
+          "startTime": "09:00",
+          "endTime": "10:30"
+        }
+      ]
+    },
+    {
+      "courseName": "Operating Systems",
+      "preferredTimeSlots": [
+        {
+          "day": "Friday",
+          "startTime": "13:00",
+          "endTime": "14:30"
+        }
+      ]
+    }
+  ],
+  "instructors": [
+    {
+      "name": "Dr. Turing",
+      "availability": [
+        {
+          "day": "Thursday",
+          "startTime": "09:00",
+          "endTime": "10:30"
+        }
+      ],
+      "preferredCourses": [
+        {
+          "courseName": "Algorithms",
+          "preferredTimeSlots": [
+            {
+              "day": "Thursday",
+              "startTime": "09:00",
+              "endTime": "10:30"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Prof. Knuth",
+      "availability": [
+        {
+          "day": "Wednesday",
+          "startTime": "10:00",
+          "endTime": "11:30"
+        }
+      ],
+      "preferredCourses": [
+        {
+          "courseName": "Data Structures",
+          "preferredTimeSlots": [
+            {
+              "day": "Wednesday",
+              "startTime": "10:00",
+              "endTime": "11:30"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dr. Tanenbaum",
+      "availability": [
+        {
+          "day": "Friday",
+          "startTime": "13:00",
+          "endTime": "14:30"
+        }
+      ],
+      "preferredCourses": [
+        {
+          "courseName": "Operating Systems",
+          "preferredTimeSlots": [
+            {
+              "day": "Friday",
+              "startTime": "13:00",
+              "endTime": "14:30"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "timeSlots": [
+    {
+      "day": "Wednesday",
+      "startTime": "10:00",
+      "endTime": "11:30"
+    },
+    {
+      "day": "Thursday",
+      "startTime": "09:00",
+      "endTime": "10:30"
+    },
+    {
+      "day": "Friday",
+      "startTime": "13:00",
+      "endTime": "14:30"
+    }
+  ]
+}

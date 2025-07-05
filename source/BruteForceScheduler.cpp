@@ -131,7 +131,9 @@ std::vector<TimeTable> BruteForceScheduler::schedule() {
         } while(std::next_permutation(indexes.begin(), indexes.end()));
 
     } while(std::next_permutation(binaryVector.begin(), binaryVector.end()));
-
+    for (auto& timeTable : resultTimeTables) {
+        timeTable.sortTimeTable();
+    }
     return resultTimeTables;
 }
 

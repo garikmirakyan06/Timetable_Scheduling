@@ -1,0 +1,102 @@
+{
+  "courses": [
+    {
+      "courseName": "Machine Learning",
+      "preferredTimeSlots": [
+        {
+          "day": "Tuesday",
+          "startTime": "10:00",
+          "endTime": "11:30"
+        },
+        {
+          "day": "Thursday",
+          "startTime": "14:00",
+          "endTime": "15:30"
+        }
+      ]
+    },
+    {
+      "courseName": "Software Engineering",
+      "preferredTimeSlots": [
+        {
+          "day": "Monday",
+          "startTime": "09:00",
+          "endTime": "10:30"
+        },
+        {
+          "day": "Thursday",
+          "startTime": "14:00",
+          "endTime": "15:30"
+        }
+      ]
+    }
+  ],
+  "instructors": [
+    {
+      "name": "Dr. Ada Lovelace",
+      "availability": [
+        {
+          "day": "Tuesday",
+          "startTime": "10:00",
+          "endTime": "11:30"
+        },
+        {
+          "day": "Monday",
+          "startTime": "09:00",
+          "endTime": "10:30"
+        }
+      ],
+      "preferredCourses": [
+        {
+          "courseName": "Software Engineering",
+          "preferredTimeSlots": [
+            {
+              "day": "Monday",
+              "startTime": "09:00",
+              "endTime": "10:30"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Prof. John McCarthy",
+      "availability": [
+        {
+          "day": "Thursday",
+          "startTime": "14:00",
+          "endTime": "15:30"
+        }
+      ],
+      "preferredCourses": [
+        {
+          "courseName": "Machine Learning",
+          "preferredTimeSlots": [
+            {
+              "day": "Thursday",
+              "startTime": "14:00",
+              "endTime": "15:30"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "timeSlots": [
+    {
+      "day": "Monday",
+      "startTime": "09:00",
+      "endTime": "10:30"
+    },
+    {
+      "day": "Tuesday",
+      "startTime": "10:00",
+      "endTime": "11:30"
+    },
+    {
+      "day": "Thursday",
+      "startTime": "14:00",
+      "endTime": "15:30"
+    }
+  ]
+}

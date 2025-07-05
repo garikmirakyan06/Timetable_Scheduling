@@ -1,0 +1,72 @@
+{
+  "courses": [
+    {
+      "courseName": "Linear Algebra",
+      "preferredTimeSlots": [
+        {
+          "day": "Monday",
+          "startTime": "09:00",
+          "endTime": "10:35"
+        }
+      ]
+    }
+  ],
+  "instructors": [
+    {
+      "name": "Dr. Smith",
+      "availability": [
+        {
+          "day": "Monday",
+          "startTime": "09:00",
+          "endTime": "10:35"
+        }
+      ],
+      "preferredCourses": [
+        {
+          "courseName": "Linear Algebra",
+          "preferredTimeSlots": [
+            {
+              "day": "Monday",
+              "startTime": "09:00",
+              "endTime": "10:35"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dr. Johnson",
+      "availability": [
+        {
+          "day": "Tuesday",
+          "startTime": "09:00",
+          "endTime": "10:35"
+        }
+      ],
+      "preferredCourses": [
+        {
+          "courseName": "Linear Algebra",
+          "preferredTimeSlots": [
+            {
+              "day": "Tuesday",
+              "startTime": "09:00",
+              "endTime": "10:35"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "timeSlots": [
+    {
+      "day": "Monday",
+      "startTime": "09:00",
+      "endTime": "10:35"
+    },
+    {
+      "day": "Tuesday",
+      "startTime": "09:00",
+      "endTime": "10:35"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "courses": [
+    {
+      "courseName": "Data Structures",
+      "preferredTimeSlots": [
+        {
+          "day": "Monday",
+          "startTime": "09:00",
+          "endTime": "10:30"
+        }
+      ]
+    },
+    {
+      "courseName": "Computer Networks",
+      "preferredTimeSlots": [
+        {
+          "day": "Tuesday",
+          "startTime": "11:00",
+          "endTime": "12:30"
+        }
+      ]
+    }
+  ],
+  "instructors": [
+    {
+      "name": "Dr. Alan Turing",
+      "availability": [
+        {
+          "day": "Monday",
+          "startTime": "09:00",
+          "endTime": "10:30"
+        },
+        {
+          "day": "Tuesday",
+          "startTime": "11:00",
+          "endTime": "12:30"
+        }
+      ],
+      "preferredCourses": [
+        {
+          "courseName": "Data Structures",
+          "preferredTimeSlots": [
+            {
+              "day": "Monday",
+              "startTime": "09:00",
+              "endTime": "10:30"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dr. Grace Hopper",
+      "availability": [
+        {
+          "day": "Monday",
+          "startTime": "09:00",
+          "endTime": "10:30"
+        },
+        {
+          "day": "Tuesday",
+          "startTime": "11:00",
+          "endTime": "12:30"
+        }
+      ],
+      "preferredCourses": [
+        {
+          "courseName": "Computer Networks",
+          "preferredTimeSlots": [
+            {
+              "day": "Tuesday",
+              "startTime": "11:00",
+              "endTime": "12:30"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "timeSlots": [
+    {
+      "day": "Monday",
+      "startTime": "09:00",
+      "endTime": "10:30"
+    },
+    {
+      "day": "Tuesday",
+      "startTime": "11:00",
+      "endTime": "12:30"
+    }
+  ]
+}

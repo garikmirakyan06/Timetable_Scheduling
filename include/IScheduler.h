@@ -2,7 +2,7 @@
 
 #include "TimeTable.h"
 
-// using "Strtegy" Design Pattern
+// using "Strategy" Design Pattern
 class IScheduler {
 public:
     virtual std::vector<TimeTable> schedule() = 0;

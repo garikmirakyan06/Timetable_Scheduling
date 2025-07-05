@@ -1,0 +1,124 @@
+{
+  "courses": [
+    {
+      "courseName": "Quantum Mechanics",
+      "preferredTimeSlots": [
+        {
+          "day": "Tuesday",
+          "startTime": "13:00",
+          "endTime": "14:30"
+        },
+        {
+          "day": "Thursday",
+          "startTime": "09:00",
+          "endTime": "10:30"
+        }
+      ]
+    },
+    {
+      "courseName": "Statistical Physics",
+      "preferredTimeSlots": [
+        {
+          "day": "Wednesday",
+          "startTime": "11:00",
+          "endTime": "12:30"
+        },
+        {
+          "day": "Tuesday",
+          "startTime": "13:00",
+          "endTime": "14:30"
+        }
+      ]
+    }
+  ],
+  "instructors": [
+    {
+      "name": "Dr. Richard Feynman",
+      "availability": [
+        {
+          "day": "Tuesday",
+          "startTime": "13:00",
+          "endTime": "14:30"
+        }
+      ],
+      "preferredCourses": [
+        {
+          "courseName": "Quantum Mechanics",
+          "preferredTimeSlots": [
+            {
+              "day": "Tuesday",
+              "startTime": "13:00",
+              "endTime": "14:30"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dr. Marie Curie",
+      "availability": [
+        {
+          "day": "Wednesday",
+          "startTime": "11:00",
+          "endTime": "12:30"
+        }
+      ],
+      "preferredCourses": [
+        {
+          "courseName": "Statistical Physics",
+          "preferredTimeSlots": [
+            {
+              "day": "Wednesday",
+              "startTime": "11:00",
+              "endTime": "12:30"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Prof. Paul Dirac",
+      "availability": [
+        {
+          "day": "Thursday",
+          "startTime": "09:00",
+          "endTime": "10:30"
+        }
+      ],
+      "preferredCourses": []
+    },
+    {
+      "name": "Dr. Lise Meitner",
+      "availability": [
+        {
+          "day": "Tuesday",
+          "startTime": "13:00",
+          "endTime": "14:30"
+        },
+        {
+          "day": "Wednesday",
+          "startTime": "11:00",
+          "endTime": "12:30"
+        }
+      ],
+      "preferredCourses": []
+    }
+  ],
+  "timeSlots": [
+    {
+      "day": "Tuesday",
+      "startTime": "13:00",
+      "endTime": "14:30"
+    },
+    {
+      "day": "Wednesday",
+      "startTime": "11:00",
+      "endTime": "12:30"
+    },
+    {
+      "day": "Thursday",
+      "startTime": "09:00",
+      "endTime": "10:30"
+    }
+  ]
+}

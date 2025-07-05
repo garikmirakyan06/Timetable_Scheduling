@@ -1,0 +1,45 @@
+{
+  "courses": [
+    {
+      "courseName": "Algorithms",
+      "preferredTimeSlots": [
+        {
+          "day": "Wednesday",
+          "startTime": "10:00",
+          "endTime": "11:30"
+        }
+      ]
+    }
+  ],
+  "instructors": [
+    {
+      "name": "Dr. Jane Doe",
+      "availability": [
+        {
+          "day": "Wednesday",
+          "startTime": "10:00",
+          "endTime": "11:30"
+        }
+      ],
+      "preferredCourses": [
+        {
+          "courseName": "Algorithms",
+          "preferredTimeSlots": [
+            {
+              "day": "Wednesday",
+              "startTime": "10:00",
+              "endTime": "11:30"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "timeSlots": [
+    {
+      "day": "Wednesday",
+      "startTime": "10:00",
+      "endTime": "11:30"
+    }
+  ]
+}

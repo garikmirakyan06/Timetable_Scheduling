@@ -138,6 +138,7 @@ std::vector<TimeTable> DummyScheduler::schedule() {
             timeTable.addAssignment(assignment);
         }
         minPenalty = std::min(minPenalty, timeTablePenalty);
+        timeTable.sortTimeTable(); // sort assignments
         timeTables.push_back(timeTable);
     }
     return timeTables;

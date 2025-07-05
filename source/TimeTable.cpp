@@ -7,6 +7,14 @@ void TimeTable::printAssignments() const {
     }
 }
 
+void TimeTable::addAssignment(const Assignment& assignment) {
+    assignments.push_back(assignment);
+}
+
+const std::vector<Assignment>& TimeTable::getAssignments() const {
+    return assignments;
+}
+
 int TimeTable::countPenalty() const {
     int penalty{0};
     for(const auto& assignment : assignments) {
@@ -24,4 +32,12 @@ void TimeTable::print() const {
 
     std::cout << "|____________________________|___________________________________|___________________________________|___________|\n";
     std::cout << std::endl << std::endl;
+}
+
+bool TimeTable::operator==(const TimeTable& other) const {
+    return (assignments == other.assignments);
+}
+
+void TimeTable::sortTimeTable() {
+    std::sort(assignments.begin(), assignments.end());
 }

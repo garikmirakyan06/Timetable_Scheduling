@@ -18,8 +18,8 @@ std::vector<std::string> Menu::getFilesInfo() const {
         int instructrosCount = jsonObject["instructors"].size();
         int timeSlotsCount = jsonObject["timeSlots"].size();
         std::string fileInfo = "Courses: " + std::to_string(coursesCount) +
-                               ", instructors: " + std::to_string(instructrosCount) +
-                               ", timeSlots: " + std::to_string(timeSlotsCount);
+                               ", timeSlots: " + std::to_string(timeSlotsCount) +
+                               ", instructors: " + std::to_string(instructrosCount);
         result.push_back(fileInfo);
         file.close();
     }

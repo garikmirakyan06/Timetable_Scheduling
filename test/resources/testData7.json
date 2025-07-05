@@ -1,0 +1,142 @@
+{
+  "courses": [
+    {
+      "courseName": "Artificial Intelligence",
+      "preferredTimeSlots": [
+        {
+          "day": "Monday",
+          "startTime": "09:00",
+          "endTime": "10:30"
+        }
+      ]
+    },
+    {
+      "courseName": "Data Mining",
+      "preferredTimeSlots": [
+        {
+          "day": "Tuesday",
+          "startTime": "10:45",
+          "endTime": "12:15"
+        }
+      ]
+    },
+    {
+      "courseName": "Natural Language Processing",
+      "preferredTimeSlots": [
+        {
+          "day": "Wednesday",
+          "startTime": "13:00",
+          "endTime": "14:30"
+        }
+      ]
+    },
+    {
+      "courseName": "Machine Learning",
+      "preferredTimeSlots": [
+        {
+          "day": "Thursday",
+          "startTime": "14:45",
+          "endTime": "16:15"
+        }
+      ]
+    }
+  ],
+  "instructors": [
+    {
+      "name": "Prof. Alan Turing",
+      "availability": [
+        {
+          "day": "Monday",
+          "startTime": "09:00",
+          "endTime": "10:30"
+        },
+        {
+          "day": "Wednesday",
+          "startTime": "13:00",
+          "endTime": "14:30"
+        }
+      ],
+      "preferredCourses": [
+        {
+          "courseName": "Artificial Intelligence",
+          "preferredTimeSlots": [
+            {
+              "day": "Monday",
+              "startTime": "09:00",
+              "endTime": "10:30"
+            }
+          ]
+        },
+        {
+          "courseName": "Natural Language Processing",
+          "preferredTimeSlots": [
+            {
+              "day": "Wednesday",
+              "startTime": "13:00",
+              "endTime": "14:30"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dr. Ada Lovelace",
+      "availability": [
+        {
+          "day": "Tuesday",
+          "startTime": "10:45",
+          "endTime": "12:15"
+        },
+        {
+          "day": "Thursday",
+          "startTime": "14:45",
+          "endTime": "16:15"
+        }
+      ],
+      "preferredCourses": [
+        {
+          "courseName": "Data Mining",
+          "preferredTimeSlots": [
+            {
+              "day": "Tuesday",
+              "startTime": "10:45",
+              "endTime": "12:15"
+            }
+          ]
+        },
+        {
+          "courseName": "Machine Learning",
+          "preferredTimeSlots": [
+            {
+              "day": "Thursday",
+              "startTime": "14:45",
+              "endTime": "16:15"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "timeSlots": [
+    {
+      "day": "Monday",
+      "startTime": "09:00",
+      "endTime": "10:30"
+    },
+    {
+      "day": "Tuesday",
+      "startTime": "10:45",
+      "endTime": "12:15"
+    },
+    {
+      "day": "Wednesday",
+      "startTime": "13:00",
+      "endTime": "14:30"
+    },
+    {
+      "day": "Thursday",
+      "startTime": "14:45",
+      "endTime": "16:15"
+    }
+  ]
+}
